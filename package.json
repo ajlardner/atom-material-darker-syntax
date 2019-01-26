@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/ajlardner/material-darker-syntax",
+  "repository": "https://github.com/ajlardner/atom-material-darker-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
