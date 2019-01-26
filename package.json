@@ -1,0 +1,15 @@
+{
+  "name": "atom-material-darker-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Syntax theme based on the Material Darker theme for RubyMine",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/ajlardner/material-darker-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
