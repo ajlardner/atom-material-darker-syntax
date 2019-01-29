@@ -1,45 +1,15 @@
 {
-  "_from": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-  "_id": "atom-material-darker-syntax@0.2.0",
-  "_inBundle": false,
-  "_integrity": "sha512-T/iNXhSHpBkbbOM/GYIlKiLcCxwfddX/jYU5PltUl33QT1lVkgb/+aM+TfgJDNM/J9PDycFLWBykZFMBZloTUg==",
-  "_location": "/atom-material-darker-syntax",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-  "_shasum": "fbc8a0bcb1c2bc40890915d1c8dd62adba425add",
-  "_spec": "https://www.atom.io/api/packages/atom-material-darker-syntax/versions/0.2.0/tarball",
-  "_where": "C:\\Users\\Aidan\\AppData\\Local\\Temp\\apm-install-dir-119026-22008-o49es5.tgmo",
-  "bugs": {
-    "url": "https://github.com/ajlardner/atom-material-darker-syntax/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "atom-material-darker-syntax",
+  "theme": "syntax",
+  "version": "0.2.0",
   "description": "Syntax theme based on the Material Darker theme for RubyMine",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "homepage": "https://github.com/ajlardner/atom-material-darker-syntax#readme",
   "keywords": [
     "syntax",
     "theme"
   ],
+  "repository": "https://github.com/ajlardner/atom-material-darker-syntax",
   "license": "MIT",
-  "name": "atom-material-darker-syntax",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajlardner/atom-material-darker-syntax.git"
-  },
-  "theme": "syntax",
-  "version": "0.2.0"
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
 }
