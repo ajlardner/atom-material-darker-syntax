@@ -1,3 +1,5 @@
+// These colors are specific to the theme. Do not use in a package!
+
 // # EDITOR
 
 // White text
@@ -9,27 +11,34 @@
 @background-lightest: #373737;
 //cursor/text
 @selection: #3a3a3a;
+@error: #880e4f;
 
+@white: white;
 // # SYNTAX
 // Comments
 @light-gray: #bdbdbd;
 @gray: #8d8d8d;
 @gray-darker: #9e9e9e;
-// Strings
-@yellow: #ffecb3;
+// Symbols/quoted strings
+@yellow: #ffffa6;
+// Unquoted strings: heredocs, etc
+@lightest-yellow: #ffffcf;
 // Keywords/types/definitions
 @purple: #c678dd;
 // Function names
 @blue: #61afef;
-// Variables
+// variables
+@light-blue: #bbdefb;
+// unquoted object properties
 @red: #e06c75;
 // JSON keys/CSS property names
 @cyan: #4dd0e1;
+// Links/various markup elements
 @cyan-2: #4bacb8;
 // HTML attributes/CSS selectors
 @green: #9cff57;
 // function arguments
-@orange: #ffbd45;
+@orange: desaturate(#ffa726, 40%);
 // Classes/constants
 @orange-2: #d19a66;
 //support functions/booleans/numeric constants
@@ -37,8 +46,11 @@
 //function arguments
 @orange-4: #c63f17;
 
-//operators
-@light-blue: #b3e5fc;
+// Markdown colors
+@md-cyan1: @cyan;
+
+// CSS colors
+@c-red-1: #ff7961;
 
 // Git diff colors
 @git-green: #519657;

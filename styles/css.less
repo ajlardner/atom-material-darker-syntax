@@ -1,0 +1,29 @@
+// CSS Styles
+
+@import "syntax-variables";
+
+.syntax--source.syntax--css {
+  .syntax--variable{
+    color: @c-red-1;
+    .syntax--punctuation{
+      color: @red;
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--definition{
+      color: @orange-2;
+    }
+
+    .syntax--support{
+      &.syntax--property-name{
+        color: @cyan;
+        font-style: italic;
+      }
+
+      &.syntax--property-value{
+        color: @syntax-text-color;
+      }
+    }
+  }
+}
