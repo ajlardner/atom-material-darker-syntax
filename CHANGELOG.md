@@ -21,4 +21,7 @@
 * Added highlighting to punctuation in string interpolation (ruby)
 * Fixed some CSS that was too specific and confusing to override
 
-*TODO 1.1.0: Add markdown styles, improve css styles, fix any issues noticed
+## 1.1.0 - Release 4
+* Fixed dumb mistake I made with `apm publish`. Don't @ me
+
+*TODO 1.2.0: Add markdown styles, improve css styles, fix any issues noticed
