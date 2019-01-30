@@ -1,6 +1,7 @@
 @import "syntax-variables";
 @import "yaml";
 @import "css";
+@import "json";
 
 atom-text-editor {
   background-color: @syntax-background-color;
@@ -83,6 +84,10 @@ atom-text-editor {
   color: @purple;
   &.syntax--modifier {
     color: @cyan;
+  }
+
+  &.syntax--type{
+    font-style: italic;
   }
 }
 
@@ -251,18 +256,6 @@ atom-text-editor {
 }
 
 .syntax--meta {
-    .syntax--key {
-      color: @cyan;
-    }
-
-    .syntax--value {
-      color: @syntax-text-color;
-
-      [class^="syntax--"] {
-        color: @syntax-text-color;
-      }
-    }
-
   &.syntax--class {
     color: @orange-2;
   }
@@ -291,19 +284,19 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @md-red2;
   }
 
   &.syntax--heading{
-    color: @cyan;
+    color: @md-blue1;
   }
 
   &.syntax--raw{
-    color: @orange-3;
+    color: @yellow;
   }
 
   &.syntax--changed {
-    color: @light-blue;
+    color: @git-green;
   }
 
   &.syntax--deleted {
@@ -316,7 +309,7 @@ atom-text-editor {
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @cyan;
+    color: @md-blue1;
   }
 
   &.syntax--inserted {
@@ -335,6 +328,7 @@ atom-text-editor {
     color: @green;
   }
 }
+
 
 
 // Mini editor

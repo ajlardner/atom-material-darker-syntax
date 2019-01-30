@@ -1,0 +1,19 @@
+.syntax--source.syntax--json {
+  .syntax--meta.syntax--structure.syntax--dictionary {
+    .syntax--key {
+      [class^='syntax--']{
+        color: @cyan;
+      }
+    }
+    .syntax--value {
+      .syntax--key {
+        [class^='syntax--']{
+          color: @cyan-2;
+        }
+      }
+      [class^='syntax--']{
+        color: @syntax-text-color;
+      }
+    }
+  }
+}

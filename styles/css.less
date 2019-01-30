@@ -3,27 +3,25 @@
 @import "syntax-variables";
 
 .syntax--source.syntax--css {
-  .syntax--variable{
-    color: @c-red-1;
-    .syntax--punctuation{
+  .syntax--support.syntax--constant {
+    color: @syntax-text-color;
+  }
+
+  .syntax--variable {
+    color: @red;
+    .syntax--punctuation {
       color: @red;
     }
   }
 
   .syntax--meta {
-    &.syntax--definition{
-      color: @orange-2;
+    .syntax--property-name {
+      color: @cyan;
+      font-style: italic;
     }
 
-    .syntax--support{
-      &.syntax--property-name{
-        color: @cyan;
-        font-style: italic;
-      }
-
-      &.syntax--property-value{
-        color: @syntax-text-color;
-      }
+    .syntax--property-value {
+      color: @syntax-text-color;
     }
   }
 }

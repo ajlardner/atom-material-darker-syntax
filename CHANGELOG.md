@@ -24,4 +24,8 @@
 ## 1.1.0 - Release 4
 * Fixed dumb mistake I made with `apm publish`. Don't @ me
 
+## 1.1.1 - Patch 4.1
+* Fixed issues with CSS styles not applying, more organization of styles
+* Broke out JSON styles for organization
+
 *TODO 1.2.0: Add markdown styles, improve css styles, fix any issues noticed
